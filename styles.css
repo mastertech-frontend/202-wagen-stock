@@ -1,0 +1,30 @@
+/* Elementos Gerais */
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header{
+    background-color: #dedede;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+header img{
+    width: 30px;
+}
