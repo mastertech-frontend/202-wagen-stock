@@ -27,4 +27,38 @@ header h1{
 
 header img{
     width: 30px;
+    margin-right: 10px; 
+}
+
+header nav{
+    display: none;
+}
+
+/* Banner */
+.banner{
+    background-image: url(imagens/banner.jpeg);
+    overflow: auto;
+    color: white;
+    background-size: 100%;
+    background-position: center;
+}
+
+.banner div{
+    margin: 100px auto;
+    width: 300px;
+}
+
+
+@media(min-width: 680px){
+    header img {
+        display: none;
+    }
+
+    header nav{
+        display: block;
+    }
+
+    .banner div{
+        margin: 150px auto;
+    }
 }
