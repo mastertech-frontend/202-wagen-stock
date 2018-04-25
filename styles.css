@@ -44,8 +44,23 @@ header nav{
 }
 
 .banner div{
-    margin: 100px auto;
-    width: 300px;
+    margin: 60px auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.banner h2{
+    font-size: 30px;
+    margin: 5px;
+    text-shadow: 0 0 10px black;
+}
+
+.banner input{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 
