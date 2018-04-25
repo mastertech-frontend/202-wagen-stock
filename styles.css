@@ -34,6 +34,12 @@ header nav{
     display: none;
 }
 
+/* Container */
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
 /* Banner */
 .banner{
     background-image: url(imagens/banner.jpeg);
