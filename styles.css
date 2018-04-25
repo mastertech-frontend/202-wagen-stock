@@ -63,6 +63,19 @@ header nav{
     box-sizing: border-box;
 }
 
+/* Destaques */
+.destaques{
+    display: flex;
+}
+
+.destaques div{
+    width: 50%;
+    padding: 30px;
+}
+
+.destaques div img{
+    width: 100%;
+}
 
 @media(min-width: 680px){
     header img {
@@ -73,7 +86,27 @@ header nav{
         display: block;
     }
 
+    .container{
+        display: flex;
+    }
+
+    .banner{
+        width: 70%;
+    }
+
     .banner div{
         margin: 150px auto;
+    }
+
+    .destaques{
+        width: 30%;
+        display: block;
+    }
+
+    .destaques div{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        padding-left: 20px;
     }
 }
